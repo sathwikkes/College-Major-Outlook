@@ -3,11 +3,11 @@ title: 'COllege Major Outlook: Difference between STEM and non-STEM - Spring 202
 author: 
   - name: 'Sathwik Kesappragda'
 email: ''
-output:
-  html_document:
-    fig_width: 10 
-    fig_height: 12 
-  toc: yes
+output: rmarkdown::github_document
+ # html_document:
+ #   fig_width: 10 
+ #   fig_height: 12 
+ # toc: yes
 toc_depth: 4
 ---
 # **PROJECT WORK**
@@ -40,7 +40,7 @@ library(class)
 
 ```{r, collapse = T}
 ##main data
-recentgrads <- read_csv(file = "recent-grads.csv")
+recentgrads <- read_csv(file = "C:/Users/sathw/Downloads/DS/collegemajor_project/raw/recent-grads.csv")
 recentgrads
 
 ### data we thought of using
